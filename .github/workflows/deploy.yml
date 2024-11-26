@@ -25,4 +25,4 @@ jobs:
 
      - name: Deploy to AWS S3
        run: |
-         aws s3 sync . s3://deployhtml --delete
+         aws s3 sync ./Applight/ s3://deployhtml --delete
